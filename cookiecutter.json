@@ -1,0 +1,8 @@
+{
+    "project_tittle": "Titulo del nuevo proyecto",
+    "project_slug": "{{cookiecutter.project_tittle.lower().replace(' ','_').replace('-','_') }}",
+    "project_description": "Descrición del proyecto",
+    "project_author_name": "Nombre del autor",
+    "project_packages" : ["All", "Minimal"],
+    "python_version" : "3.7"
+}
